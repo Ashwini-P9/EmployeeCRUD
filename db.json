@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "name": "Ratna",
+      "email": "hjjjjjjjjjjjjjj@gmail.com",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "Ashwini Ponthagani",
+      "email": "ashwinimp99@gmail.com",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "monika malkhede",
+      "email": "monika@gmail",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Supriya petkar",
+      "email": "supi@gmail.com",
+      "password": "",
+      "id": 5
+    }
+  ]
+}

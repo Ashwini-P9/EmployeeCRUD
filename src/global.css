@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+button{
+    background-color: rgb(0, 191, 255);
+}
+.layout{
+background-color: azure;
+}
+.addEmp {
+    border:1px solid black;
+    margin:0 auto;
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.addEmp input{
+    padding:5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.addEmp button{
+    margin: 20px 80px 80px 80px;
+   background-color: rgb(6, 126, 224);
+}
+.addEmp button:hover{
+    background-color: rgb(144, 237, 229);
+}
+
+.navContainer{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(180, 218, 252);
+    display: flex;
+    position: sticky;
+}
+.logoBlock{
+    height: inherit;
+    width: 20%;
+  /*  border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuBlock{
+    height: inherit;
+    width: 80%;
+    display: flex;
+    margin-left:auto;
+     
+}
+ .menuBlock ul{
+    height: inherit;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   text-decoration: none;
+ }
+ .menuBlock ul li{
+    text-decoration: none;
+ }
+
+ .tableContainer,th,tr,td{
+    border:1px solid black;
+    margin:0 auto;
+    margin-top:100px;
+    background-color: aquamarine;
+ }
+ td,th{
+    padding: 20px 40px;
+ }
+ .icon{
+    display: flex;
+    gap: 10px;
+ }
+ .icon::selection{
+   height: 100px;
+   width: 60px;
+ }
+ a{
+    text-decoration: none;
+   
+ }
+ .add{
+      
+     align-items: center;
+     justify-content: center;
+     padding-left: 650px;
+     padding-top: 50px;
+ }
+
+ .body{
+    height: 900px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border: blue 2px solid;
+ }
+  
+ .first{
+    width:50%;
+    display: flex;
+   border: 2px solid red;
+   align-items: flex-start;
+   height: inherit;
+ }
+
+ .second{
+    width:50%;
+    border: 2px solid red;
+    display: flex;
+    height: inherit;
+    
+ }
+ .footer{
+    background-color: rgb(80, 78, 78);
+    height: 500px;
+    width: 100%;
+     display: block;
+     color: antiquewhite;
+     border: 2px solid red;
+ }
+ .footer h3{
+    color: antiquewhite;
+     padding-bottom: 0%;
+   
+     display: block;
+    
+ }
